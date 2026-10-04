@@ -1,35 +1,34 @@
-# Gradle files
-.gradle/
-build/
-.kotlin/
+# Universal Document Workspace
 
-# Local configuration file (sdk path, etc)
-local.properties
+A privacy-first, offline-capable Android application for managing and working with PDFs, office files, images, scanned documents, signatures, and share workflows.
 
-# Log/OS Files
-*.log
+This repository is scaffolded as a modular Android project using Kotlin and Jetpack Compose.
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+## Status
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+This initial version establishes the app architecture, navigation shell, dashboard, document management layout, and module boundaries for future phases.
 
-# Keystore files
-*.jks
-*.keystore
+## Modules
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+- app
+- core
+- core-ui
+- file-manager
+- document-engine
+- pdf-engine
+- scanner
+- search
+- share
+- workspace
+- security
+- settings
 
-# Android Profiling
-*.hprof
+## Planned phases
+
+1. Core file manager, dashboard, search, recent files
+2. PDF viewing and annotation
+3. Scanner, image-to-PDF, signature
+4. Office viewer support
+5. Conversion and export tools
+6. Share Board and secure local sharing
+7. Corporate workflow and access control
